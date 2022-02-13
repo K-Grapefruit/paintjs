@@ -28,6 +28,7 @@ function startPainting() {
 }
 
 function onMouseMove(event) {
+  // offsetX, offsetY : canvas 안에서의 마우스 위치 값
   const x = event.offsetX;
   const y = event.offsetY;
   if (!painting) {
